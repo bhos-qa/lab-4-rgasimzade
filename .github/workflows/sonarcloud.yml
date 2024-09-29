@@ -24,7 +24,7 @@ jobs:
         run: ./gradlew build
 
       - name: Run Unit Tests
-        run: ./gradlew test jacocoTestReport --debug
+        run: ./gradlew test jacocoTestReport
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44a69171-65f8-47cd-87cb-5802b8825f4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/sonarcloud.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/sonarcloud.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727616139596</updated>
       <workItem from="1727616140617" duration="277000" />
-      <workItem from="1727616892101" duration="323000" />
+      <workItem from="1727616892101" duration="631000" />
     </task>
     <servers />
   </component>

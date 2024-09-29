@@ -4,14 +4,6 @@ plugins {
     id("org.sonarqube") version "4.0.0.2929"
 }
 
-sonarqube {
-    properties {
-        property("sonar.projectKey", "bhos-qa_lab-4-rgasimzade")
-        property("sonar.organization", "bhos-qa")
-        property("sonar.host.url", "https://sonarcloud.io")
-    }
-}
-
 group = "org.example"
 version = "1.0-SNAPSHOT"
 
@@ -31,7 +23,16 @@ tasks.test {
 tasks.jacocoTestReport {
     dependsOn(tasks.test)
     reports {
-        html.required.set(true)
-        xml.required.set(true)
+        html.required.set(true) // HTML report
+        xml.required.set(true) // XML report
+    }
+}
+
+sonarqube {
+    properties {
+        property("sonar.projectKey", "bhos-qa_lab-4-rgasimzade")
+        property("sonar.organization", "bhos-qa")
+        property("sonar.host.url", "https://sonarcloud.io")
+        property("sonar.java.binaries", "build/classes/java/main") // Specify the Java binaries directory
     }
 }
