@@ -10,6 +10,9 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
 }
+jacoco {
+    toolVersion = "0.8.8" // or the latest stable version
+}
 
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
@@ -20,13 +23,7 @@ tasks.test {
     useJUnitPlatform()
 }
 
-tasks.jacocoTestReport {
-    dependsOn(tasks.test)
-    reports {
-        html.required.set(true) // HTML report
-        xml.required.set(true) // XML report
-    }
-}
+
 
 sonarqube {
     properties {
