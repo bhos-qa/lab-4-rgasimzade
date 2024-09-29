@@ -6,7 +6,8 @@ on:
       - develop
     paths:
       - '**/*.java'
-
+env:
+  SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 jobs:
   sonarcloud:
     name: SonarCloud Scan
@@ -39,8 +40,7 @@ jobs:
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        
         with:
           args: >
             -Dsonar.projectKey="bhos-qa_lab-3-rgasimzade"
