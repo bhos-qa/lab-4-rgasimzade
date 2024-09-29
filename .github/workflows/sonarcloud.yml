@@ -40,3 +40,4 @@ jobs:
           sonar-scanner -Dsonar.projectKey=bhos-qa_lab-4-rgasimzade -Dsonar.organization=bhos-qa
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          
