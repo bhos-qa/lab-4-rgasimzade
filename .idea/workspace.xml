@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a69171-65f8-47cd-87cb-5802b8825f4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e342646-c245-4d6b-8668-fccd90753514" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,33 +22,26 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2mkMUUmC1HRofzlOh0wrSHYQ7LW" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2mkSgOQHsINL8uIyOR6uNE3pwjM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.BusinessLogicTest.testGenerateInvoiceNumber.executor": "Run",
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/lab4",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/BHOS-QA/lab-4-rgasimzade",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,37 +49,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="BusinessLogicTest.testGenerateInvoiceNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;BusinessLogicTest.testGenerateInvoiceNumber&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.BusinessLogicTest.testGenerateInvoiceNumber" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,14 +61,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44a69171-65f8-47cd-87cb-5802b8825f4d" name="Changes" comment="" />
-      <created>1727616139596</created>
+      <changelist id="9e342646-c245-4d6b-8668-fccd90753514" name="Changes" comment="" />
+      <created>1727619193453</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727616139596</updated>
-      <workItem from="1727616140617" duration="277000" />
-      <workItem from="1727616892101" duration="1294000" />
-      <workItem from="1727618194029" duration="323000" />
+      <updated>1727619193453</updated>
+      <workItem from="1727619194409" duration="317000" />
     </task>
     <servers />
   </component>

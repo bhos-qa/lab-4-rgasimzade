@@ -16,7 +16,6 @@ public class BusinessLogic {
     }
 
     public double convertCurrency(double amount, String fromCurrency, String toCurrency) {
-        // Simplified exchange rates
         double exchangeRate = 1.0;
         if (fromCurrency.equals("USD") && toCurrency.equals("EUR")) {
             exchangeRate = 0.85;
